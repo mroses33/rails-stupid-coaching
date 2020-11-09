@@ -1,0 +1,21 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.banner {
+  background-image: url(https://picsum.photos/1200/300?grayscale);
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 50px;
+  color: rgb(176,65,46);
+  font: bolder;
+}
+
+.answer{
+  height: 50px;
+  width: 400px;
+  background: white;                         /* White background */
+  padding: 15px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
